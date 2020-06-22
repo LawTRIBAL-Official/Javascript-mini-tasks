@@ -1,0 +1,107 @@
+main {
+  margin: 0 auto;
+}
+
+body {
+  background-color:#34495e;
+}
+
+div {
+/*  border: solid 1px red;*/
+  color: white;
+}
+
+section {
+  background-color: #3a5673;
+  margin: 0 5rem 0 5rem;
+}
+
+form {
+  margin: 0 auto;
+}
+
+.color_flipper {
+  margin-top: 5rem;
+}
+
+.color_flipper div {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.color_flipper_container {
+  padding: 0 0 2.5rem 0;
+  margin: 0 auto;
+}
+
+.color_flipper_title {
+  border-bottom: solid 1px white;
+  font-size: 2.5rem;
+  background-color: #1f3245;
+}
+
+.color_flipper_content {
+  width: 100%;
+}
+
+.color_flipper_content .tab {
+  font-size: 1em;
+  width: 10rem;
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2.5rem;
+  background-color: #5a89ba;
+  margin-top: 2.5rem;
+  text-transform: uppercase;
+}
+
+.color_flipper_content .tab:hover {
+  background-color: #5ab2ba;
+}
+
+.color_flipper_content div {
+  margin-top: .5rem;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-field {
+  height: 2.5rem;
+  width: 15rem;
+  border-radius: 2.5rem;
+  font-size: 2rem;
+  background-color: rgb(163, 163, 163);
+  transition: 1s;
+}
+
+.input-field:hover {
+  background-color: #ffffff;
+}
+
+.input-field:focus {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.input-submit {
+  height: 2.5rem;
+  width: 7rem;
+  margin-left: .5rem;
+  background-color: #5a89ba;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 2.5rem;
+}
+
+.input-submit:hover {
+  background-color: #5ab2ba;
+}
